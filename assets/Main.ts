@@ -33,7 +33,7 @@ export default class NewClass extends cc.Component {
         window.open('https://tai.caxeng.win/Caxeng.apk','_blank');
     }
     onClickHuongDan(){
-        this.scr.scrollToPercentVertical(0.18,0.3);
+        this.scr.scrollToPercentVertical(0.15,0.3);
     }
 
     // start () {
