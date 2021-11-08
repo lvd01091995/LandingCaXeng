@@ -22,15 +22,15 @@ export default class NewClass extends cc.Component {
     onLoad () {
         switch(cc.sys.os){
             case cc.sys.OS_WINDOWS:
-                window.location =  "https://caxeng.win";
+                window.location =  "https://caxeng.com";
                 break;
             case cc.sys.OS_IOS:
-                window.location =  "https://caxeng.win";
+                window.location =  "https://caxeng.com";
                 break;
         }
     }
     onClickTaiApp(){
-        window.open('https://tai.caxeng.win/CaXeng.apk','_blank');
+        window.open('https://tai.caxeng.com/CaXeng.apk','_blank');
     }
     onClickHuongDan(){
         this.scr.scrollToPercentVertical(0.15,0.3);
