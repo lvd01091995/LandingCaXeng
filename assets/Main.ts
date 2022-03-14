@@ -5,7 +5,7 @@
 // Learn life-cycle callbacks:
 //  - https://docs.cocos.com/creator/manual/en/scripting/life-cycle-callbacks.html
 
-const {ccclass, property} = cc._decorator;
+const { ccclass, property } = cc._decorator;
 
 @ccclass
 export default class NewClass extends cc.Component {
@@ -17,23 +17,26 @@ export default class NewClass extends cc.Component {
     // text: string = 'hello';
 
     // LIFE-CYCLE CALLBACKS:
-    
 
-    onLoad () {
-        switch(cc.sys.os){
+
+    onLoad() {
+        switch (cc.sys.os) {
             case cc.sys.OS_WINDOWS:
-                window.location =  "https://caxeng.com";
+                window.location = "https://caxeng.com";
                 break;
             case cc.sys.OS_IOS:
-                window.location =  "https://caxeng.com";
+                window.location = "https://caxeng.com";
                 break;
         }
     }
-    onClickTaiApp(){
-        window.open('https://tai.caxeng.com/CaXeng.apk','_blank');
+    onClickTaiApp() {
+        window.open('https://tai.caxeng.com/CaXeng.apk', '_blank');
     }
-    onClickHuongDan(){
-        this.scr.scrollToPercentVertical(0.15,0.3);
+    onClickChoiNgay() {
+        window.location = "https://caxeng.com";
+    }
+    onClickHuongDan() {
+        this.scr.scrollToPercentVertical(0.15, 0.3);
     }
 
     // start () {
