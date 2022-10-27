@@ -2,7 +2,7 @@
   "migrate-history": [
     "cloud-function"
   ],
-  "last-module-event-record-time": 1647249527533,
+  "last-module-event-record-time": 1666777540365,
   "group-list": [
     "default"
   ],
@@ -43,8 +43,8 @@
   "simulator-orientation": false,
   "use-customize-simulator": true,
   "simulator-resolution": {
-    "height": 640,
-    "width": 960
+    "width": 960,
+    "height": 640
   },
   "clear-simulator-cache": true,
   "facebook": {
